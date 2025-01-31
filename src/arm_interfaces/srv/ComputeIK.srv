@@ -1,0 +1,5 @@
+geometry_msgs/PoseStamped target_pose  # 目标位姿
+---
+sensor_msgs/JointState joint_state  # 关节状态
+bool success                        # 是否成功
+string error_message                # 错误信息

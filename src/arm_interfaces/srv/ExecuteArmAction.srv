@@ -1,0 +1,6 @@
+string[] joint_names  # 关节名称
+float64[] joint_positions  # 关节目标角度（单位：弧度）
+float64 execution_time  # 动作执行时间（单位：秒）
+---
+bool success  # 动作是否成功
+string message  # 错误消息或成功信息
